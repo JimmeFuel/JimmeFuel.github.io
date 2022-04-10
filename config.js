@@ -3,6 +3,8 @@
 // eslint-disable-next-line no-unused-vars
 const config = {
   style: 'mapbox://styles/mapbox/light-v10',
+  
+//This Access Token needs to come from MapBox.com account. Free for the first 50K views each month. Counter resets every month.
   accessToken: 'pk.eyJ1IjoiamltbWVmdWVsIiwiYSI6ImNreTZvb3hyaDBoNTcydm40Y3oydThrcmQifQ.PzZIS0Z8R8Q467Erb7QozQ',
   CSV: './Sample_Data.csv',
   center: [-120.234, 47.398],
@@ -12,8 +14,10 @@ const config = {
   //  'You can search to sort the list below by distance. You can also filter the list by flying category, which carriers are at each airport, or simply select the options you want to see.',
   //sideBarInfo: ['Location_Name', 'Address', 'Phone'], //Original
   sideBarInfo: ['Location_Name', 'Type', 'Address', 'Operator'],
-  //popupInfo: ['Type'],
+  //popupInfo: ['Operator'],
   popupInfo: ['Operator'],
+ 
+    
   filters: [
     {
       type: 'dropdown',
@@ -24,6 +28,7 @@ const config = {
         'Major',
         'Regional',
         'Cargo',
+        'Corporate',
         'EMS',
         'Military',
         'Pilot Training',
@@ -63,6 +68,15 @@ const config = {
       columnHeader: 'Operator', // Case sensitive - must match spreadsheet entry
       listItems: ['ABX', 'Aloha', 'Ameriflight', 'Atlas', 'Empire', 'Everts', 'FedEx', 'National', 'Northern', 'UPS'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
     },
+
+      
+//Section of filters box that searched for CORPORATE
+    {
+      type: 'checkbox',
+      title: 'Corporate: ',
+      columnHeader: 'Operator', // Case sensitive - must match spreadsheet entry
+      listItems: ['Flexjet'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
+    },
       
       
 //Section of filters box that searched for EMS
@@ -89,7 +103,7 @@ const config = {
       type: 'checkbox',
       title: 'Filter by States: ',
       columnHeader: 'State_province', // Case sensitive - must match spreadsheet entry
-      listItems: ['AK', 'AL', 'AR', 'AZ', 'CA', 'CO', 'CT', 'DC', 'DE', 'FL', 'GA', 'GU', 'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 'LA', 'MA', 'MD', 'ME', 'MI', 'MN', 'MO', 'MP', 'MS', 'MT', 'NC', 'ND', 'NE', 'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'PR', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'VT', 'WA', 'WI', 'WV', 'WY'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
+      listItems: ['AK', 'AL', 'AR', 'AZ', 'CA', 'CO', 'CT', 'DC', 'DE', 'FL', 'GA', 'Germany', 'Guam', 'HI', 'IA', 'ID', 'IL', 'IN', 'KS', 'KY', 'LA', 'MA', 'MD', 'ME', 'MI', 'MN', 'MO', 'MP', 'MS', 'MT', 'NC', 'ND', 'NE', 'NH', 'NJ', 'NM', 'NV', 'NY', 'OH', 'OK', 'OR', 'PA', 'PR', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'VT', 'WA', 'WI', 'WV', 'WY'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
     },
     {
       type: 'dropdown',
