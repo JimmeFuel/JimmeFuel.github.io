@@ -12,7 +12,8 @@ const config = {
   //  'You can search to sort the list below by distance. You can also filter the list by flying category, which carriers are at each airport, or simply select the options you want to see.',
   //sideBarInfo: ['Location_Name', 'Address', 'Phone'], //Original
   sideBarInfo: ['Location_Name', 'Type', 'Address', 'Operator'],
-  popupInfo: ['Type'],
+  //popupInfo: ['Type'],
+  popupInfo: ['Operator'],
   filters: [
     {
       type: 'dropdown',
