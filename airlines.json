@@ -19,7 +19,7 @@
       "pilot_domiciles": []
     },
     {
-      "id": SWA,
+      "id": "SWA",
       "name": "Southwest Airlines",
       "type": "Major",
       "pilot_domiciles": []
@@ -31,13 +31,13 @@
       "pilot_domiciles": []
     },
     {
-      "id": FDX,
+      "id": "FDX",
       "name": "FedEx Express",
       "type": "Cargo",
       "pilot_domiciles": []
     },
     {
-      "id": NJT,
+      "id": "NJT",
       "name": "NetJets",
       "type": "Fractional",
       "pilot_domiciles": []
