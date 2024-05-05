@@ -1,0 +1,40 @@
+{
+  "airlines": [
+    {
+      "id": 1,
+      "name": "Delta Air Lines",
+      "type": "Legacy",
+      "pilot_domiciles": []
+    },
+    {
+      "id": 2,
+      "name": "United Airlines",
+      "type": "Legacy",
+      "pilot_domiciles": []
+    },
+    {
+      "id": 3,
+      "name": "American Airlines",
+      "type": "Legacy",
+      "pilot_domiciles": []
+    },
+    {
+      "id": 4,
+      "name": "Southwest Airlines",
+      "type": "Major",
+      "pilot_domiciles": []
+    },
+    {
+      "id": 5,
+      "name": "FedEx Express",
+      "type": "Cargo",
+      "pilot_domiciles": []
+    },
+    {
+      "id": 6,
+      "name": "NetJets",
+      "type": "Fractional",
+      "pilot_domiciles": []
+    }
+  ]
+}
