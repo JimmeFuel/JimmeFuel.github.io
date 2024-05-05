@@ -31,6 +31,12 @@
       "pilot_domiciles": []
     },
     {
+      "id": "SKW",
+      "name": "Skywest Airlines",
+      "type": "Regional",
+      "pilot_domiciles": []
+    },
+    {
       "id": "FDX",
       "name": "FedEx Express",
       "type": "Cargo",
