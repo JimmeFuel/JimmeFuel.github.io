@@ -28,7 +28,7 @@
       "id": "RPA",
       "name": "Republic Airlines",
       "type": "Regional",
-      "pilot_domiciles": [DCA, IND, EWR, LGA, PHL, PIT, ORD, CMH, SDF, BOS]
+      "pilot_domiciles": ['DCA', 'IND', 'EWR', 'LGA', 'PHL', 'PIT', 'ORD', 'CMH', 'SDF', 'BOS']
     },
     {
       "id": "SKW",
