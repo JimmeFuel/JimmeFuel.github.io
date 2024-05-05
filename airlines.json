@@ -28,13 +28,13 @@
       "id": "RPA",
       "name": "Republic Airlines",
       "type": "Regional",
-      "pilot_domiciles": ['DCA', 'IND', 'EWR', 'LGA', 'PHL', 'PIT', 'ORD', 'CMH', 'SDF', 'BOS']
+      "pilot_domiciles": ["DCA", "IND", "EWR", "LGA", "PHL", "PIT", "ORD", "CMH", "SDF", "BOS"]
     },
     {
       "id": "SKW",
       "name": "Skywest Airlines",
       "type": "Regional",
-      "pilot_domiciles": [MSP, ORD, PSP, DEN, PHX, FAT, LAX, SEA, SFO, IAH, PDX, COS, ATL, BOI, SAN, DFW, DTW, TUS, SLC]
+      "pilot_domiciles": ["MSP", "ORD", "PSP", "DEN", "PHX", "FAT", "LAX", "SEA", "SFO", "IAH", "PDX", "COS", "ATL", "BOI", "SAN", "DFW", "DTW", "TUS", "SLC"]
     },
     {
       "id": "FDX",
