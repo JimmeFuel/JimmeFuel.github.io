@@ -1,37 +1,43 @@
 {
   "airlines": [
     {
-      "id": 1,
+      "id": "DAL",
       "name": "Delta Air Lines",
       "type": "Legacy",
       "pilot_domiciles": []
     },
     {
-      "id": 2,
+      "id": "UAL",
       "name": "United Airlines",
       "type": "Legacy",
       "pilot_domiciles": []
     },
     {
-      "id": 3,
+      "id": "AA",
       "name": "American Airlines",
       "type": "Legacy",
       "pilot_domiciles": []
     },
     {
-      "id": 4,
+      "id": SWA,
       "name": "Southwest Airlines",
       "type": "Major",
       "pilot_domiciles": []
     },
     {
-      "id": 5,
+      "id": "RPA",
+      "name": "Republic Airlines",
+      "type": "Regional",
+      "pilot_domiciles": []
+    },
+    {
+      "id": FDX,
       "name": "FedEx Express",
       "type": "Cargo",
       "pilot_domiciles": []
     },
     {
-      "id": 6,
+      "id": NJT,
       "name": "NetJets",
       "type": "Fractional",
       "pilot_domiciles": []
