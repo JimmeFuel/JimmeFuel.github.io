@@ -41,8 +41,8 @@ def scrape_domiciles(url):
 
 # Example usage with one airline URL (replace with actual URLs and mapping logic)
 airline_url_mapping = {
-    "Republic Airlines": "https://example.com/delta-domiciles",  # Replace with the real URL
-    "SkyWest Airlines": "https://example.com/united-domiciles"
+    "Republic Airlines": "https://www.airlinepilotcentral.com/airlines/regional/republic_airways",  # Replace with the real URL
+    "SkyWest Airlines": "https://www.airlinepilotcentral.com/airlines/regional/skywest"
 
 
 }
